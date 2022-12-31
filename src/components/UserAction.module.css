@@ -1,0 +1,30 @@
+.del {
+  color: #fc5373;
+}
+.edit {
+  color: gray;
+}
+
+.icons * {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.readOnly {
+  border: none;
+  width: 90%;
+  text-overflow: ellipsis;
+}
+
+.selected {
+  background: #fff;
+}
+
+.selected input {
+  background: #fff;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}
